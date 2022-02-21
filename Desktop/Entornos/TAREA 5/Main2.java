@@ -7,8 +7,8 @@ public class Main2 {
 	public static void main(String[] args) {
 		Contacto contacto=null;
 		String opcion;
-		
-		Agenda miAgenda=new Agenda("SUPER AGENDA");
+		String nombre;
+		Agenda miAgenda=new Agenda("Mobile Contacts");
 		
 		do {
 			
@@ -16,19 +16,19 @@ public class Main2 {
 			System.out.println("1) Añadir Contacto");
 			System.out.println("2) Buscar Contacto");
 			System.out.println("3) Listar Contactos");
-			System.out.println("S) Salir");
-			opcion=sc.nextLine();
+			System.out.println("4) Salir");
+			opcion=Integer.parseInt(sc.nextLine());
 			
-			if (opcion.equals("1")) {
+			if (opcion==1)) {
+			
 				System.out.println("Nombre del Contacto: ");
 				
-				String nombre=sc.nextLine();
-				contacto=new Contacto(nombre);
+				contacto=new Contacto(nombre=sc.nextLine());
 				miAgenda.addContacto(contacto);
 				
 			}
 			
-			if (opcion.equals("2")) {
+			if (opcion==2) {
 				System.out.println("Nombre del Contacto:");
 				String nombre=sc.nextLine();
 				
@@ -71,7 +71,7 @@ public class Main2 {
 				
 			}
 			
-			if (opcion.equals("3")) {
+			if (opcion==3) {
 				
 				for (Contacto c:miAgenda.getContactos()) {
 					System.out.println(c.getNombre());
@@ -103,12 +103,12 @@ public class Main2 {
 				
 				opcion=sc.nextLine();
 				
-				switch(opcion.toLowerCase()) {
-					case "1":
+				 
+					if(opcíon.equals("1"){
 						System.out.println("Nuevo Nombre:");
 						contacto.update(sc.nextLine());
-					break;
-					case "2":
+					}
+					if(opcion.equals("2"){
 						System.out.println("Tipo de información");
 						String tipo=sc.nextLine();
 						System.out.println("Valor de la información");
@@ -118,8 +118,8 @@ public class Main2 {
 						
 						contacto.addInfo(i);
 						
-					break;
-					case "3":
+					}
+					if (opcion.equals("3"){
 						try {
 							System.out.println("Nº de la Información");
 							int n=Integer.parseInt(sc.nextLine());
@@ -134,7 +134,7 @@ public class Main2 {
 						} catch (NumberFormatException e1) {
 							System.out.println("Error");
 						}
-					break;
+					}
 					case "4":
 						int n2;
 						
