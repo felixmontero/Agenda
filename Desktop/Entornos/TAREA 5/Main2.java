@@ -8,6 +8,7 @@ public class Main2 {
 		Contacto contacto=null;
 		String opcion;
 		String nombre;
+	
 		Agenda miAgenda=new Agenda("Mobile Contacts");
 		
 		do {
@@ -16,10 +17,10 @@ public class Main2 {
 			System.out.println("1) Añadir Contacto");
 			System.out.println("2) Buscar Contacto");
 			System.out.println("3) Listar Contactos");
-			System.out.println("4) Salir");
-			opcion=Integer.parseInt(sc.nextLine());
+			System.out.println("S) Salir");
+			opcion=sc.nextLine();
 			
-			if (opcion==1)) {
+			if (opcion.equals("1")) {
 			
 				System.out.println("Nombre del Contacto: ");
 				
@@ -28,9 +29,9 @@ public class Main2 {
 				
 			}
 			
-			if (opcion==2) {
+			if (opcion.equals("2") {
 				System.out.println("Nombre del Contacto:");
-				String nombre=sc.nextLine();
+				nombre=sc.nextLine();
 				
 				LinkedList<Contacto> encontrados=miAgenda.findContacto(nombre);
 				if (encontrados.isEmpty()) {
@@ -71,14 +72,18 @@ public class Main2 {
 				
 			}
 			
-			if (opcion==3) {
+			if (opcion.equals("3")) {
 				
 				for (Contacto c:miAgenda.getContactos()) {
 					System.out.println(c.getNombre());
+
 					for (Informacion i:c.getInformaciones()) {
 						System.out.println(" - "+i.getTipo()+": "+i.getInfo());
 						
+					
+				
 					}
+					System.out.println("***********************************");
 				}
 			}
 			
