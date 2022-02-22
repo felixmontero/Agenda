@@ -8,20 +8,20 @@ public class Main2 {
 		Contacto contacto=null;
 		String opcion;
 		String nombre;
-		Agenda miAgenda=new Agenda("Mobile Contacts");
+		Agenda miAgenda=new Agenda("Mobiles de contacto");
 		
 		do {
 			
 			System.out.println("AGENDA: "+miAgenda.getNombre());
-			System.out.println("1) Añadir Contacto");
-			System.out.println("2) Buscar Contacto");
+			System.out.println("1) Añadir Contactos");
+			System.out.println("2) Buscar Contactos");
 			System.out.println("3) Listar Contactos");
 			System.out.println("4) Salir");
 			opcion=Integer.parseInt(sc.nextLine());
 			
 			if (opcion==1)) {
 			
-				System.out.println("Nombre del Contacto: ");
+				System.out.println("Alias del Contacto: ");
 				
 				contacto=new Contacto(nombre=sc.nextLine());
 				miAgenda.addContacto(contacto);
@@ -29,7 +29,7 @@ public class Main2 {
 			}
 			
 			if (opcion==2) {
-				System.out.println("Nombre del Contacto:");
+				System.out.println("Alias del Contacto:");
 				String nombre=sc.nextLine();
 				
 				LinkedList<Contacto> encontrados=miAgenda.findContacto(nombre);
