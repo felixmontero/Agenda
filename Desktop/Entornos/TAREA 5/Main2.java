@@ -8,30 +8,34 @@ public class Main2 {
 		Contacto contacto=null;
 		String opcion;
 		String nombre;
+
 	
 		Agenda miAgenda=new Agenda("Mobile Contacts");
+
+
 		
 		do {
 			
 			System.out.println("AGENDA: "+miAgenda.getNombre());
-			System.out.println("1) Añadir Contacto");
-			System.out.println("2) Buscar Contacto");
+			System.out.println("1) AÃ±adir Contactos");
+			System.out.println("2) Buscar Contactos");
 			System.out.println("3) Listar Contactos");
 			System.out.println("S) Salir");
 			opcion=sc.nextLine();
 			
 			if (opcion.equals("1")) {
 			
-				System.out.println("Nombre del Contacto: ");
+				System.out.println("Alias del Contacto: ");
 				
 				contacto=new Contacto(nombre=sc.nextLine());
 				miAgenda.addContacto(contacto);
 				
-			}
 			
-			if (opcion.equals("2") {
-				System.out.println("Nombre del Contacto:");
-				nombre=sc.nextLine();
+=======
+			if (opcion==2) {
+				System.out.println("Alias del Contacto:");
+				String nombre=sc.nextLine();
+
 				
 				LinkedList<Contacto> encontrados=miAgenda.findContacto(nombre);
 				if (encontrados.isEmpty()) {
@@ -54,13 +58,13 @@ public class Main2 {
 					boolean error=true;
 					do {
 						try {
-							System.out.println("Nº del contacto?");
+							System.out.println("NÂº del contacto?");
 							n = Integer.parseInt(sc.nextLine());
 							if (n>0 &&  n <= encontrados.size()) {
 								error=false;
 							}
 						} catch (NumberFormatException e) {
-							System.out.println("Número incorrecto!!");
+							System.out.println("NÃºmero incorrecto!!");
 						} 
 					} while (error);
 					
@@ -100,23 +104,23 @@ public class Main2 {
 				}
 				System.out.println("----------------------------------------------");
 				System.out.println("1) Cambiar Nombre");
-				System.out.println("2) Añadir Info");
+				System.out.println("2) AÃ±adir Info");
 				System.out.println("3) Modificar Info");
 				System.out.println("4) Eliminar Info");
 				System.out.println("5) Eliminar Contacto");
-				System.out.println("V) Volver al menú Principal");
+				System.out.println("V) Volver al menÃº Principal");
 				
 				opcion=sc.nextLine();
 				
 				 
-					if(opcíon.equals("1"){
+					if(opcÃ­on.equals("1"){
 						System.out.println("Nuevo Nombre:");
 						contacto.update(sc.nextLine());
 					}
 					if(opcion.equals("2"){
-						System.out.println("Tipo de información");
+						System.out.println("Tipo de informaciÃ³n");
 						String tipo=sc.nextLine();
-						System.out.println("Valor de la información");
+						System.out.println("Valor de la informaciÃ³n");
 						String valor=sc.nextLine();
 						
 						Informacion i=new Informacion(tipo, valor);
@@ -126,7 +130,7 @@ public class Main2 {
 					}
 					if (opcion.equals("3"){
 						try {
-							System.out.println("Nº de la Información");
+							System.out.println("NÂº de la InformaciÃ³n");
 							int n=Integer.parseInt(sc.nextLine());
 							
 							if (n<=0 || n>contacto.getInformaciones().size()) {
@@ -144,7 +148,7 @@ public class Main2 {
 						int n2;
 						
 						try {
-							System.out.println("Nº de la Información");
+							System.out.println("NÂº de la InformaciÃ³n");
 							n2 = Integer.parseInt(sc.nextLine());
 							if (n2<=0 || n2>contacto.getInformaciones().size()) {
 								System.out.println("Incorrecto!!");
@@ -158,7 +162,7 @@ public class Main2 {
 						
 						break;
 					case "5":
-						System.out.println("Estás seguro? (S/N)");
+						System.out.println("EstÃ¡s seguro? (S/N)");
 						if (sc.nextLine().equalsIgnoreCase("s")) {
 							miAgenda.delContacto(contacto);
 							contacto=null;
