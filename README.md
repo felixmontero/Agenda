@@ -65,7 +65,7 @@
 
 * Comprobamos en [GitHub](https://github.com) que nuestras ramas se han creado con éxito
 
-![Ima10](10.png)
+![Ima10](https://github.com/felixmontero/Agenda/blob/master/images/10.png)
 
 ## Realizar cambios a nuestro programa en el Main.java, así como subida de las clases que lo componen
 
@@ -77,8 +77,8 @@
 
        $git add Main2.java 
 
-![Ima11](11.png)
-![Ima12](12.png)
+![Ima11](https://github.com/felixmontero/Agenda/blob/master/images/11.png)
+![Ima12](https://github.com/felixmontero/Agenda/blob/master/images/12.png)
 
 
 * Hacemos un commit con nuestro comentario:
@@ -90,43 +90,43 @@
 
        $ git push --set-upstream origin my-branch
 
-![Ima13](13.png)
+![Ima13](https://github.com/felixmontero/Agenda/blob/master/images/13.png)
 
 * Hacemos los pasos anteriores al mismo tiempo o después, para la subida de las clases que componen nuestra Agenda.java. En el siguiente ejemplo un colaborador sube la clase Contacto.java usando ***git pull*** para actualizar la versión local de su repositorio desde el remoto. A continuación hace el ***commit*** y el ***git push***
 
-![Ima14](14.png)
-![Ima15](15.png)
-![Ima16](16.png)
+![Ima14](https://github.com/felixmontero/Agenda/blob/master/images/14.png)
+![Ima15](https://github.com/felixmontero/Agenda/blob/master/images/15.png)
+![Ima16](https://github.com/felixmontero/Agenda/blob/master/images/16.png)
 
 * Y para comparar los cambios nos vamos a Pull requests, ***New pull request***
 
-![Ima17](17.png)
+![Ima17](https://github.com/felixmontero/Agenda/blob/master/images/17.png)
 
 * Seleccionamos entre las diferentes ramas para revisar y comparar los cambios 
-![Ima18](18.png)
-![Ima19](19.png)
-![Ima20](20.png)
-![Ima21](21.png)
+![Ima18](https://github.com/felixmontero/Agenda/blob/master/images/18.png)
+![Ima19](https://github.com/felixmontero/Agenda/blob/master/images/19.png)
+![Ima20](https://github.com/felixmontero/Agenda/blob/master/images/20.png)
+![Ima21](https://github.com/felixmontero/Agenda/blob/master/images/21.png)
 
 * Una vez hecho esto, podemos crear una ***pull request***
-![Ima22](22.png)
+![Ima22](https://github.com/felixmontero/Agenda/blob/master/images/22.png)
 
 * Le damos un título y escribimos un comentario y damos clic en la opción ***Create pull request***
-![Ima23](23.png)
-![Ima24](24.png)
+![Ima23](https://github.com/felixmontero/Agenda/blob/master/images/23.png)
+![Ima24](https://github.com/felixmontero/Agenda/blob/master/images/24.png)
 
 * Podremos ver la opción ***Merge pull request***, en caso de que haya conflictos, los solucionamos y continuamos
-![Ima25](25.png)
+![Ima25](https://github.com/felixmontero/Agenda/blob/master/images/25.png)
 
 * Una vez clicamos en la opción ***Merge pull request*** nos va a pedir más ***commits***, en caso que no queramos hacerlos simplemente confirmamos la fusión con ***Confirm merge*** 
-![Ima26](26.png)
+![Ima26](https://github.com/felixmontero/Agenda/blob/master/images/26.png)
 
 * Brevemente veremos ***merging*** y depsués cambiará el estado a ***Merged*** junto con los ***commits*** y de qué rama a qué rama se han hecho. Addemás de la opción de eliminar la rama de la cual se establecieron o añadieron los cambios a la rama main/master.
 
-![Ima27](27.png)
-![Ima28](28.png)
+![Ima27](https://github.com/felixmontero/Agenda/blob/master/images/27.png)
+![Ima28](https://github.com/felixmontero/Agenda/blob/master/images/28.png)
 
 
 ## Breve vídeo donde se hace parte de todo este proceso, llevado a cabo por un ***contributor*** (click en la imagen)
 
-[![Ima29](29.png)](V1.mp4)
+
