@@ -129,6 +129,13 @@
 ![Ima28](https://github.com/felixmontero/Agenda/blob/master/images/28.png)
 
 
-## Breve vídeo donde se hace parte de todo este proceso, llevado a cabo por un ***contributor*** (click en la imagen)
+## Vídeo 1 donde se puede ver parte de todo el proceso, llevado a cabo por un ***contributor*** (click en la imagen)
+
+[![Ima29](https://github.com/felixmontero/Agenda/blob/master/images/29.png)](https://youtu.be/PV-U7Fquv9o)
+
+
+## Vídeo 2 donde continúa el proceso llevado a cabo por un ***contributor*** (click en la imagen)
+[![Ima31](https://github.com/felixmontero/Agenda/blob/master/images/31.jpg)](https://youtu.be/uh55-_S3nXA)
+
 
 
