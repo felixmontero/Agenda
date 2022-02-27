@@ -4,8 +4,8 @@
 ## Proyecto de agenda de teléfono, usando como lenguaje Java
 
 * Creación de respositorio con la rama master/main
-* Clonación del repo
-* Creación de branches para la subida de clases que conforman nuestro programa y realizar los respectivos aportes y/o cambios que realicen los colaboradores
+* Clonación del repositorio
+* Creación de branches para la subida de las clases que conforman nuestro programa y aportes o cambios por parte de los colaboradores
 * Pull requests
 
 ## 1. Creación del repositorio
@@ -129,7 +129,7 @@
 ![Ima28](https://github.com/felixmontero/Agenda/blob/master/images/28.png)
 
 
-## Vídeo donde se puede ver parte de todo el proceso; llevado a cabo por un ***contributor*** (click en la imagen para verlo)
+## Vídeo donde se puede ver parte del proceso antes dertallado; llevado a cabo por un ***contributor*** (clic en la imagen para verlo)
 
 [![Ima31](https://github.com/felixmontero/Agenda/blob/master/images/31.jpg)](https://youtu.be/Qftj9mTuUqw)
 
