@@ -67,7 +67,7 @@
 
 ![Ima10](https://github.com/felixmontero/Agenda/blob/master/images/10.png)
 
-## Realizar cambios a nuestro programa en el Main.java, así como subida de las clases que lo componen
+## 4. Realizar cambios a nuestro programa en el Main.java, así como subida de las clases que lo componen
 
 * Una vez ubicados en nuestra rama, realizamos algunos cambios en el archivo Main2.java con VIM (en nuestro caso), confirmamos que se han aplicado los cambios y lo añadimos a la stage area:
                 
@@ -81,7 +81,7 @@
 ![Ima12](https://github.com/felixmontero/Agenda/blob/master/images/12.png)
 
 
-* Hacemos un commit con nuestro comentario:
+* Un commit con nuestro comentario:
 
        $ git commit -m "Mejoras al..."
 
@@ -92,7 +92,7 @@
 
 ![Ima13](https://github.com/felixmontero/Agenda/blob/master/images/13.png)
 
-* Hacemos los pasos anteriores al mismo tiempo o después, para la subida de las clases que componen nuestra Agenda.java. En el siguiente ejemplo un colaborador sube la clase Contacto.java usando ***git pull*** para actualizar la versión local de su repositorio desde el remoto. A continuación hace el ***commit*** y el ***git push***
+* Realizamos los pasos anteriores al mismo tiempo o después, para la subida de las clases que componen nuestra Agenda.java. En el siguiente ejemplo un colaborador sube la clase Contacto.java usando ***git pull*** para actualizar la versión local de su repositorio desde el remoto. A continuación hace el ***commit*** y el ***git push***
 
 ![Ima14](https://github.com/felixmontero/Agenda/blob/master/images/14.png)
 ![Ima15](https://github.com/felixmontero/Agenda/blob/master/images/15.png)
