@@ -1,4 +1,4 @@
-![Ima1](1.jpg) 
+![Ima1](https://github.com/felixmontero/Agenda/blob/master/images/1.jpg) 
 # Tarea 5. Shared repository on [GitHub](https://github.com)
 
 ## Proyecto de agenda de teléfono, usando como lenguaje Java
@@ -12,7 +12,7 @@
 
 * En el lado superior derecho, en el menú desplegable hacemos clic en ***New repository***.
 
-![Ima2](2.png)
+![Ima2](https://github.com/felixmontero/Agenda/blob/master/images/2.png)
 
 * En la opción ***Repository name***, introducimos el nombre, en este caso  `Agenda`.
 
@@ -21,34 +21,34 @@
 * Elegimos la opción `Add a README file` o no, según sea el caso.
 * Y por último `Create repository`.
 
-![Ima3](3.png)
+![Ima3](https://github.com/felixmontero/Agenda/blob/master/images/3.png)
 
 * Veremos nuestro repositorio, con la rama main/master creada por default
 
-![Ima4](4.png)
+![Ima4](https://github.com/felixmontero/Agenda/blob/master/images/4.png)
 
 ## 2. Invitación a otros desarrolladores para colaborar en nuestro trabajo
 
 * Una vez que tenemos creado nuestro repositosio, en ***Setting*** debajo de ***Access*** veremos la opción ***Collaborators***. Ahí mismo veremos los pasos para poder añadir a desarrolladores
 
-![Ima5](5.png)
+![Ima5](https://github.com/felixmontero/Agenda/blob/master/images/5.png)
 
-![Ima6](6.png)
+![Ima6](https://github.com/felixmontero/Agenda/blob/master/images/6.png)
 
-![Ima7](7.png)
+![Ima7](https://github.com/felixmontero/Agenda/blob/master/images/7.png)
 
 * Las personas que añadamos recibiran una invitación, y a partir de ahí cada uno aportará al proyecto (en nuestro caso) las diferentes clases que conforman nuestro programa, así como cambios en el archivo main.java
 
 ## 3. Creación de ramas como colaboradores una vez reciba la invitación
 
-![Ima30](30.png)
+![Ima30](https://github.com/felixmontero/Agenda/blob/master/images/30.png)
 
 
 * El primer paso es descargar el repositorio, para esto hay que clonarlo:
 
         $ git clone https://github.com/felixmontero/Agenda.git
 
-![Ima8](8.png)
+![Ima8](https://github.com/felixmontero/Agenda/blob/master/images/8.png)
 
  * Entramos en el repositorio:
       
@@ -61,7 +61,7 @@
 * Cambiamos a esta rama:
 
          $ git checkout my-branch
-![Ima9](9.png)
+![Ima9](https://github.com/felixmontero/Agenda/blob/master/images/9.png)
 
 * Comprobamos en [GitHub](https://github.com) que nuestras ramas se han creado con éxito
 
